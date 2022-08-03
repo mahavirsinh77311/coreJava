@@ -1,0 +1,18 @@
+package com.topics.coreJava;
+
+// showing the use of while loop  
+public class WhileLoopDemo {
+
+	public static void main(String[] args) {
+		//loop counter initialisation
+		int i = 1;
+		
+		//loop to print 1 to 10.
+		while(i<=10)
+		{
+			System.out.println(i);
+			i++;
+		}
+	}
+
+}
